@@ -1,13 +1,13 @@
 import vk_api
 from vk_auth import VKAuth
 
-code = 'fda5414ed49c16806f'
+code = ""
 redirect_url = 'vk.com/blank.html'
-app_id = 51861517
-secret = 'PY5maAdTlWsMMCrtOF28'
+app_id = ""
+secret = ""
 
-login = "89030759420"
-password = "tyX7~Lp3+"
+login = ""
+password = ""
 
 if __name__ == "__main__":
     auth = VKAuth(app_id, "friends", login, password)
